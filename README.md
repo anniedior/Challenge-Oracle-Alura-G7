@@ -6,7 +6,7 @@
    <img src="https://img.shields.io/badge/ESTADO- EN %60 DESAROLLO CONTINUO-cyan">
    </p>
 
-<h2>Descripción del Challenge</h2>
+## Descripción del Challenge
   <p>Es una aplicación que encripta textos, en la que podrás intercambiar mensajes secretos con otras personas que sepan 
     el secreto de la encriptación utilizada.</p>
 
@@ -25,7 +25,14 @@
 5. Luego pega el texto previamente copiado en la caja blanca de texto
 6. Da click en el botón "Desencriptar"
 
-<h2>Creadora</h2>
+## Desarrollado con 🛠️
+* [Java 8](https://www.java.com/es/) - Lenguaje de programación
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código
+
+
+
+## Creadora 
+
 <img src="https://github.com/user-attachments/assets/156cb597-2309-4482-a408-c0a3ea2ddb49" width=115>
 
 <p>Annie Julieth Diaz</p>
