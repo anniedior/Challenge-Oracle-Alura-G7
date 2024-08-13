@@ -3,7 +3,7 @@
 <h1 align="center">Encriptador de texto</h1>
 
    <p align="center">
-   <img src="https://img.shields.io/badge/ESTADO- EN %60 DESAROLLO CONTINUO-cyan">
+   <img src="https://img.shields.io/badge/ESTADO- EN %60 MEJORAMIENTO CONTINUO-f5004f">
    </p>
 
 ## Descripción del Challenge
