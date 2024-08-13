@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --color-primario: #780000;
+    --color-secundario: #000000;
+    --color-terciario: #F6F6F6;
+
+    --fuente-anton: "Anton", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./img/spy-camera-1702973.jpg");
+    background-size: 1350px 640px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header__titulo {
+    padding: 5% 0% 0% 10%; 
+    font-family: var(--fuente-anton);
+    font-size: 40px;   
+    display: flex;  
+    padding: 20px;
+    text-align: start;
+    position:absolute;
+    top: 30px;
+    left: 140px;
+}
+
+/*.cuadro__desencriptador {
+    position: absolute;
+    top: 150px;
+    left: 960px;
+}*/
+
+.triangulo__senal {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    z-index: 1;
+}
+
+.advertencia {
+    position: absolute;
+    top: 470px;
+    left: 160px;
+    font-family: var(--fuente-anton);
+    font-size: 15px;
+    font-style: normal;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: none;
+    font-family: var(--fuente-anton);
+    font-size: 20px;
+    text-align: left;
+    resize: none;
+    display: flex;
+}
+
+.input-box {
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+    opacity: 50%;
+    position: absolute;
+    top: 165px;
+    left: 160px;
+    width: 485px;
+    height: 278px;
+    outline: none;
+    display: flex;
+}
+
+.output-box {
+    background-color: var(--color-secundario);
+    opacity: 90%;
+    color: var(--color-terciario);
+    position: absolute;
+    top: 80px;
+    left: 760px;
+    width: 430px;
+    height: 438px;
+    outline: none;
+    display: flex;
+}
+
+.button-encriptar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: none;
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top: 480px;
+    left: 160px;
+    font-family: var(--fuente-anton);
+    font-size: 18px;
+    font-weight: 400;
+    width: 250px;
+    margin-top: 2rem;
+}
+
+.button-desencriptar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: none;
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top: 480px;
+    left: 410px;
+    font-family: var(--fuente-anton);
+    font-size: 18px;
+    font-weight: 400;
+    width: 250px;
+    margin-top: 2rem;
+}
+
+.button-copiar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: none;
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top: 510px;
+    left: 905px;
+    font-family: var(--fuente-anton);
+    font-size: 18px;
+    font-weight: 400;
+    width: 150px;
+}
+
+button:hover {
+    background-color: var(--color-secundario);
+}
+
+.adjuntos__links__sociales {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 120px;
+    left: 637px;
+}
+
+.links__sociales {
+    width: 70px;
+    background-color: var(--color-primario);
+    text-align: center;
+    padding: 25px 0px;
+    font-family: var(--fuente-anton);
+    font-size: 15px;
+    font-style: regular;
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+
+.footer {
+    background-color: var(--color-primario);
+    padding: 5px 635px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    font-family: var(--fuente-anton);
+    font-size: 10px;
+    font-weight: 50;
+    color: #776B5D;
+    text-align: center;
+}
+

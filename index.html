@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta sharset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <header>
+        <h1 class="header__titulo">Encriptador de Texto</h1>
+    </header>
+ 
+    <main>
+        <div class="cuadro__desencriptador"></div>
+
+        <div class="triangulo__senal"><img src="./img/triangulo-01-01.png"></div>
+
+        <div>
+            <textarea id="inputText" class="input-box" rows="9" cols="47" placeholder="Ingresa tu texto para encriptar aqui."></textarea>
+            <button onclick="encriptar()" class="button-encriptar">Encriptar</button>
+            <button onclick="desencriptar()" class="button-desencriptar">Desencriptar</button>
+            <textarea id="outputText" class="output-box" readonly placeholder="No hay ningún texto para copiar."></textarea>
+            <button onclick="copiar()" class="button-copiar">Copiar</button>
+        </div>
+ 
+        <p class="advertencia"><img src="./img/icon_advertencia-01-01.png">Desencriptará letras minúsculas y sin acento</p>
+ 
+        <div class="adjuntos__links__sociales"> 
+            <a class="links__sociales" href="https://whatsapp.com/"><img src="./img/icon-whatsapp-01.png"></a>
+            <a class="links__sociales" href="https://messenger.com/"><img src="./img/icon-msn-01-01.png"></a>
+            <a class="links__sociales" href="https://gmail.com/"><img src="./img/icon-gmail-01.png"></a>
+            <a class="links__sociales" href="https://drive.google.com/"><img src="./img/icon-drive-01.png"></a>
+        </div>
+    </main>
+
+    <footer>
+        <h1 class= "footer">Creado por AnnieDiOr - 2024</h1>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
